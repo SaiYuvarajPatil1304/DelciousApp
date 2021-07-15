@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background_page"
+    tools:context=".signup_page">
+<TextView
+    android:id="@+id/txtname2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Enter Your Name:"
+    android:textSize="25dp"
+    android:textColor="@color/black"
+    android:textStyle="bold"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="30dp" />
+<EditText
+    android:id="@+id/etnamenter2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/txtname2"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginTop="10dp"
+    android:hint="Enter Your Name"
+    android:inputType="text"
+    android:textColorHint="#bdbdbd"/>
+<TextView
+    android:id="@+id/txtcrepwd"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/etnamenter2"
+    android:text="Create Password:"
+    android:textColor="@color/black"
+    android:textStyle="bold"
+    android:textSize="25dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginTop="20dp" />
+<EditText
+    android:id="@+id/etcrepwd"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/txtcrepwd"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:hint="Create New Password"
+    android:inputType="number"
+    android:textColorHint="#bdbdbd"/>
+<EditText
+    android:id="@+id/etrespwd"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/etcrepwd"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginTop="10dp"
+    android:hint="Re-enter Password"
+    android:inputType="number"
+    android:textColorHint="#bdbdbd"/>
+<Button
+    android:id="@+id/btnsignup"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/etrespwd"
+    android:layout_marginTop="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginLeft="30dp"
+    android:text="Sign up"
+    android:textStyle="bold"
+    android:textColor="#ffffff"/>
+</RelativeLayout>

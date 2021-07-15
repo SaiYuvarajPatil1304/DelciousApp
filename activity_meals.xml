@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background_page"
+    tools:context=".meals">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgvegfriedrice"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/veg_fried_rice"
+                android:layout_marginLeft="30dp"
+                android:padding="3dp"
+                android:background="#000000"/>
+
+            <TextView
+                android:id="@+id/txtvegfriedrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_toRightOf="@+id/imgvegfriedrice"
+                android:text="VEG-FRIED RICE"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnvegfriedrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtvegfriedrice"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/imgvegfriedrice"
+                android:text="SELECT"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgvegpulav"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/imgvegfriedrice"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/veg_pulav"
+                android:layout_marginLeft="30dp"
+                android:padding="3dp"
+                android:background="#000000"/>
+
+            <TextView
+                android:id="@+id/txtvegpulav"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgvegfriedrice"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="50dp"
+                android:layout_toRightOf="@+id/imgvegpulav"
+                android:text="VEG-PULAV"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnvegpulav"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtvegpulav"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/imgvegpulav"
+                android:text="SELECT"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgpannerbutter"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/imgvegpulav"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/panner_butter_masala"
+                android:layout_marginLeft="30dp"
+                android:padding="3dp"
+                android:background="#000000"/>
+
+            <TextView
+                android:id="@+id/txtpannerbutter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgvegpulav"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="40dp"
+                android:layout_toRightOf="@+id/imgpannerbutter"
+                android:text="PANNER-BUTTER MASALA"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnpannerbutter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtpannerbutter"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/imgpannerbutter"
+                android:text="SELECT"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgvegcurry"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/imgpannerbutter"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/veg_curry"
+                android:padding="3dp"
+                android:background="#000000"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:id="@+id/txtvegcurry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgpannerbutter"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="50dp"
+                android:layout_toRightOf="@+id/imgvegcurry"
+                android:text="VEG-CURRY"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnvegcurry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtvegcurry"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/imgvegcurry"
+                android:text="SELECT"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgcholemasala"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/imgvegcurry"
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/chole_masala"
+                android:padding="3dp"
+                android:background="#000000"/>
+
+            <TextView
+                android:id="@+id/txtcholemasala"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgvegcurry"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_toRightOf="@+id/imgcholemasala"
+                android:text="CHOLE-MASALA"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btncholemasala"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtcholemasala"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/imgcholemasala"
+                android:text="SELECT"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgjerrarice"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/imgcholemasala"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/jerra_rice"
+                android:padding="3dp"
+                android:background="#000000"/>
+
+            <TextView
+                android:id="@+id/txtjerrarice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgcholemasala"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="50dp"
+                android:layout_toRightOf="@+id/imgjerrarice"
+                android:text="JERRA-RICE"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnjerrarice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtjerrarice"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/imgjerrarice"
+                android:text="SELECT"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background_page"
+    tools:context=".snack">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgbreadtoast"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="#000000"
+                android:padding="3dp"
+                android:src="@drawable/bread_toast" />
+
+            <TextView
+                android:id="@+id/txtbreadtoast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_toRightOf="@+id/imgbreadtoast"
+                android:text="Bread-toast"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnbreadtoast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtbreadtoast"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/imgbreadtoast"
+                android:text="select"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgdoughnut"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/imgbreadtoast"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="#000000"
+                android:padding="3dp"
+                android:src="@drawable/doughnut" />
+
+            <TextView
+                android:id="@+id/txtdoughnut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgbreadtoast"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_toRightOf="@+id/imgdoughnut"
+                android:text="Dough-nut"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btndoudhnut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtdoughnut"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/imgbreadtoast"
+                android:text="Select"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgpizza"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/imgdoughnut"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="#000000"
+                android:padding="3dp"
+                android:src="@drawable/pizza" />
+
+            <TextView
+                android:id="@+id/txtpizza"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgdoughnut"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_toRightOf="@+id/imgpizza"
+                android:text="Pizza"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnpizza"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtpizza"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/imgpizza"
+                android:text="Select"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgpopcorn"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/imgpizza"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="#000000"
+                android:padding="3dp"
+                android:src="@drawable/pop_corn" />
+
+            <TextView
+                android:id="@+id/txtpopcorn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgpizza"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="40dp"
+                android:layout_toRightOf="@+id/imgpopcorn"
+                android:text="Pop-Corn"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnpopcorn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtpopcorn"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/imgpopcorn"
+                android:text="Select"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgsandwich"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/imgpopcorn"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="#000000"
+                android:padding="3dp"
+                android:src="@drawable/sandwich" />
+
+            <TextView
+                android:id="@+id/txtsandwich"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgpopcorn"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_toRightOf="@+id/imgsandwich"
+                android:text="Sand-Wich"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnsandwich"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtsandwich"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/imgsandwich"
+                android:text="Select"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgcake"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/imgsandwich"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="#000000"
+                android:padding="3dp"
+                android:src="@drawable/cake" />
+
+            <TextView
+                android:id="@+id/txtcake"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgsandwich"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_toRightOf="@+id/imgcake"
+                android:text="Cake"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btncake"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtcake"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/imgcake"
+                android:text="Select"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+</ScrollView>

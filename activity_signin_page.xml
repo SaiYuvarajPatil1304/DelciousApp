@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background_page"
+    tools:context=".signin_page">
+
+    <TextView
+        android:id="@+id/txtname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Name :"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:id="@+id/etnameenter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txtname"
+        android:layout_marginTop="10dp"
+        android:inputType="text"
+        android:hint="Enter Your Name"
+        android:maxLength="20"
+        android:maxLines="1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textColorHint="#bdbdbd"/>
+    <TextView
+        android:id="@+id/txtpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etnameenter"
+        android:text="Enter Password :"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:id="@+id/etpwdenter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txtpassword"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        android:hint="Enter Password"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:maxLength="8"
+        android:maxLines="1"
+        android:textColorHint="#bdbdbd"/>
+    <Button
+        android:id="@+id/btnsigninpage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign in"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_below="@+id/etpwdenter"
+        android:background="#ffffff"/>
+    <TextView
+        android:id="@+id/txtforgpwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:textSize="18dp"
+        android:layout_below="@+id/btnsigninpage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        />
+    <TextView
+        android:id="@+id/txtreghere"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Register here"
+        android:textSize="18dp"
+        android:layout_marginBottom="20dp"/>
+
+</RelativeLayout>

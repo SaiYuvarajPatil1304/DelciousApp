@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background_page"
+    tools:context=".nonveg">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgchickenchops"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/chicken_chops"
+                android:layout_marginLeft="30dp"
+                android:padding="3dp"
+                android:background="#000000"/>
+
+            <TextView
+                android:id="@+id/txtchickenchops"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="40dp"
+                android:layout_toRightOf="@+id/imgchickenchops"
+                android:text="CHICKEN-CHOPS"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnchickenchops"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtchickenchops"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/imgchickenchops"
+                android:text="SELECT"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgchickencurry"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/imgchickenchops"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/chicken_curry"
+                android:layout_marginLeft="30dp"
+                android:padding="3dp"
+                android:background="#000000"/>
+
+            <TextView
+                android:id="@+id/txtchickencurry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgchickenchops"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="40dp"
+                android:layout_toRightOf="@+id/imgchickencurry"
+                android:text="CHICKEN-CURRY"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnchickencurry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtchickencurry"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/imgchickencurry"
+                android:text="SELECT"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgchickenkabab"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/imgchickencurry"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/chicken_kabab"
+                android:layout_marginLeft="30dp"
+                android:padding="3dp"
+                android:background="#000000"/>
+
+            <TextView
+                android:id="@+id/txtchickenkabab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgchickencurry"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="40dp"
+                android:layout_toRightOf="@+id/imgchickenkabab"
+                android:text="CHICKEN-KABAB"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnchickenkabab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtchickenkabab"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/imgchickenkabab"
+                android:text="SELECT"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgeggcurry"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/imgchickenkabab"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/egg_curry"
+                android:layout_marginTop="20dp"
+                android:padding="3dp"
+                android:background="#000000"/>
+
+            <TextView
+                android:id="@+id/txteggcurry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgchickenkabab"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_toRightOf="@+id/imgeggcurry"
+                android:text="EGG-CURRY"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btneggcurry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txteggcurry"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/imgeggcurry"
+                android:text="SELECT"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgfishcurry"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/imgeggcurry"
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/fish_curry"
+                android:padding="3dp"
+                android:background="#000000"/>
+
+            <TextView
+                android:id="@+id/txtfishcurry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgeggcurry"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/imgfishcurry"
+                android:text="FISH-CURRY"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnfishcurry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtfishcurry"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/imgfishcurry"
+                android:text="SELECT"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgmuttoncurry"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/imgfishcurry"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/mutton_curry"
+                android:padding="3dp"
+                android:background="#000000"/>
+
+            <TextView
+                android:id="@+id/txtmuttoncurry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgfishcurry"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="50dp"
+                android:layout_toRightOf="@+id/imgmuttoncurry"
+                android:text="MUTTON-CURRY"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnmuttoncurry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtmuttoncurry"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/imgmuttoncurry"
+                android:text="SELECT"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background_page"
+    tools:context=".ice_creams">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgchocolate"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/chocolate"
+                android:layout_marginLeft="30dp"
+                android:padding="3dp"
+                android:background="#000000"/>
+
+            <TextView
+                android:id="@+id/txtchocolate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="40dp"
+                android:layout_toRightOf="@+id/imgchocolate"
+                android:text="CHOCOLATE"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnchocolate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtchocolate"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/imgchocolate"
+                android:text="SELECT"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgcranberry"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/imgchocolate"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/cranberry"
+                android:layout_marginLeft="30dp"
+                android:padding="3dp"
+                android:background="#000000"/>
+
+            <TextView
+                android:id="@+id/txtcranberry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgchocolate"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="50dp"
+                android:layout_toRightOf="@+id/imgcranberry"
+                android:text="CRANBERRY"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btncranberry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtcranberry"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/imgcranberry"
+                android:text="SELECT"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imglemonlime"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/imgcranberry"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/lemon_lime"
+                android:layout_marginLeft="30dp"
+                android:padding="3dp"
+                android:background="#000000"/>
+
+            <TextView
+                android:id="@+id/txtlemonlime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgcranberry"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="50dp"
+                android:layout_toRightOf="@+id/imglemonlime"
+                android:text="LEMON-LIME"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnlemonlime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtlemonlime"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/imglemonlime"
+                android:text="SELECT"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgmango"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/imglemonlime"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/mango"
+                android:layout_marginTop="20dp"
+                android:padding="3dp"
+                android:background="#000000"/>
+
+            <TextView
+                android:id="@+id/txtmango"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imglemonlime"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="50dp"
+                android:layout_toRightOf="@+id/imgmango"
+                android:text="MANGO"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnmango"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtmango"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/imgmango"
+                android:text="SELECT"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgstrawberry"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/imgmango"
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/strawberry"
+                android:padding="3dp"
+                android:background="#000000"/>
+
+            <TextView
+                android:id="@+id/txtstrawberry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgmango"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_toRightOf="@+id/imgstrawberry"
+                android:text="STRAWBERRY"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnstrawberry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtstrawberry"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/imgstrawberry"
+                android:text="SELECT"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgvanilla"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/imgstrawberry"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/vanilla"
+                android:padding="3dp"
+                android:background="#000000"/>
+
+            <TextView
+                android:id="@+id/txtvanilla"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgstrawberry"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="50dp"
+                android:layout_toRightOf="@+id/imgvanilla"
+                android:text="VANILLA"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnvanilla"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtvanilla"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/imgvanilla"
+                android:text="SELECT"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+</ScrollView>

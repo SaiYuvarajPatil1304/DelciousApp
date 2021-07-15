@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background_page"
+    tools:context=".cart">
+
+    <TextView
+        android:id="@+id/txtcart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cart"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+    <TableLayout
+        android:id="@+id/cartdetails"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/txtcart"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:padding="1dp">
+
+    </TableLayout>
+    <TextView
+        android:id="@+id/txtaddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location:"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:layout_below="@+id/cartdetails"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp" />
+    <EditText
+        android:id="@+id/etaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtaddress"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:hint="Enter address here"
+        android:layout_marginRight="50dp" />
+    <Button
+        android:id="@+id/btnorder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etaddress"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="PLACE ORDER"
+        android:textStyle="bold" />
+</RelativeLayout>
